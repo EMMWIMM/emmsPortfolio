@@ -1,0 +1,58 @@
+
+
+
+.header{
+  background-color: #900C3F;
+  color: #DAF7A6;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.header ul{
+list-style-type: none;
+justify-content: flex-end;
+display: inline;
+
+
+}
+
+.header li{
+display: inline;
+justify-content: flex-end, space-evenly;
+
+
+}
+
+.image{
+width: 100%;
+border-color: #FF5733;
+border-style: groove;
+
+}
+
+.BLI {
+display: flex;
+
+}
+.BLI h3 {
+  display: inline;
+  width: 50%;
+  flex-direction: row;
+  padding-left: 10%;
+}
+
+.firstWork,.otherWorks {
+display: inline;
+width: 200px;
+border-style: dashed;
+border-color: #900C3F;
+flex-direction: row;
+
+}
+
+.firstWork{
+border-width: thick;
+
+
+}
