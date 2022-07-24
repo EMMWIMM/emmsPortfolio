@@ -18,13 +18,15 @@ h3{
 
   width: 50%;
   background-color: #DAF7A6;
+  line-height: 50px;
+
 /*  border-left: 0px;
   border-top: 0px;
   border-bottom: 0px;
   border-right: 5px;*/
 }
 
-.header ul{
+.header ul, .BLI ul{
 list-style-type: none;
 justify-content: flex-end;
 display: inline;
@@ -48,6 +50,8 @@ border-style: groove;
 
 .BLI {
 display: flex;
+margin-right: 5%;
+
 
 }
 .BLI h3 {
@@ -61,21 +65,36 @@ display: flex;
 
 .firstWork,.otherWorks {
 display: inline;
-width: 200px;
+flex-wrap:wrap;
 border-style: dashed;
-border-color: #900C3F;
+border-color: #FFC300;
 flex-direction: row;
+
 
 }
 
 .firstWork{
 border-width: thick;
+width: 100%;
 
 
+}
+.moreworks{
+  display: block;
+  flex-wrap: nowrap;
+  background-color: #900C3F;
+  width: 100%;
+  float:
+}
+.otherWorks{
+  width: 50%;
+  flex-wrap:wrap;
 }
 
 .aboutMe{
 
   border-color: #900C3F;
   border-style: solid;
+
+
 }
