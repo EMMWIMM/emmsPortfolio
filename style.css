@@ -19,6 +19,7 @@ body{
 
 h1{
   background-color: #581845;
+  height: inherit;
 
 }
 
@@ -38,9 +39,20 @@ display: inline;
 
 }
 
+.BLI ul{
+align-content:center;
+display: flex;
+
+}
+
+.BLI li{
+  justify-content: center;
+
+}
 .header li{
 display: inline;
-justify-content: flex-end, space-evenly;
+justify-content: flex-end, space-evenly, space-between;
+padding: 15px;
 
 
 }
@@ -58,13 +70,15 @@ display: flex;
 margin-right: 5%;
 width: 100%;
 height: 32%;
+align-items: center;
+align-content: center;
 
 
 
 }
-.BLI h3 {
+ h3 {
   display: inline;
-  width: 50%;
+  width: 30%;
   flex-direction: row;
   padding-left: 10%;
   border-style: solid;
@@ -84,6 +98,10 @@ height: 32%;
   width: 100%;
 
 }
+.BLI ul{
+  width: 196%;
+}
+
 
 
 .firstWork,.otherWorks {
@@ -120,8 +138,13 @@ width: 100%;
 
   border-color: #900C3F;
   border-style: solid;
+  width: 196%;
 
 
+}
+
+.works{
+  width: 196%
 }
 
 .footer {
