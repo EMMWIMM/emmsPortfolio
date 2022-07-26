@@ -1,11 +1,11 @@
 *{
 height: 100%;
+width: auto;
 }
 
 body{
-    position: absolute;
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  height: inherit;
   background-image: url("./images/green.png");
 
 }
@@ -41,17 +41,26 @@ vertical-align: middle;
 
 h3{
 display: inline-block;
-  width: 50%;
+  width: 300px;
   background-color: #DAF7A6;
   line-height: 40px;
+  flex-direction: row;
+  padding-left: 10%;
+  border-style: solid;
+  border-color: #900C3F;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  font-size: 50px;
   vertical-align: middle;
-
+  text-align: center;
+  color: #581845;
 
 }
-
 p{
 text-align: center;
 padding-top: 100px;
+color: #581845;
 
 }
 
@@ -105,29 +114,20 @@ width: 100%;
 height: 25%;
 border-color: #FFC300;
 border-style: groove;
+border-top: none;
 
 }
 
-
- h3 {
-  display: inline;
-  width: 30%;
-  flex-direction: row;
-  padding-left: 10%;
-  border-style: solid;
-  border-color: #900C3F;
-  border-left: none;
-  border-top: none;
-  border-bottom: none;
-  font-size: 50px;
-
-
+#image img{
+  width: 100%
 }
+
+
 
 
 
 .works{
-  width: 196%;
+  width: 100%;
   position: absolute;
 }
 
@@ -141,7 +141,7 @@ border-style: groove;
 
 }
 .BLI ul{
-  width: 196%;
+  width: 100%;
   font-size: 50px;
 }
 
@@ -162,29 +162,43 @@ flex-direction: row;
 border-width: thick;
 width: 500px;
 height: 150px;
-
-
-
+position: relative;
+  text-align: center;
 
 }
+
+.animation{
+position: absolute;
+left: 40%;
+color: #FFC300;
+}
+
+
 .moreworks{
   display: inline;
   flex-wrap: nowrap;
   background-color: #900C3F;
-  width: 196%;
-  height: 25%;
-
-}
-
-.otherWorks{
-  flex-wrap:wrap;
-  display: inline;
   width: 100%;
   height: 25%;
 
 
+}
+
+.otherWorks{
+  position: absolute;
+  flex-wrap:wrap;
+  display: inline;
+  width: 20PX;
+  height: 25%;
 
 }
+
+.KW{
+position: absolute;
+left: 40%;
+color: #FFC300;
+}
+
 .gif{
   width: 500px;
   height: 150px;
@@ -198,18 +212,21 @@ height: 150px;
 
   border-color: #900C3F;
   border-style: solid;
-  width: 196%;
+  width: 100%;
 
 
 }
 
 .footer {
 height: 20%;
-width: 100%;
+width: inherit;
 background-color: #FFC300;
-background-image: url("./images/wavesYellow.png");
 align-items:center;
 align-items: stretch;
 
 
+}
+.footer img{
+  height:170px;
+  width: 100%;
 }
